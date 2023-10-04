@@ -11,10 +11,10 @@
 ### OVERVIEW LANDING PAGE WEBSITE
 
 ### 1. Light Mode
-<img src="./src/assets/Landing-GoTrav.png" width="100%" height="300">
+<img src="./src/assets/Landing-GoTrav.png" width="100%">
 
 ### 2. Dark Mode
-<img src="./src/assets/Landing-GoTrav-Dark.png" width="100%" height="300">
+<img src="./src/assets/Landing-GoTrav-Dark.png" width="100%">
 
 ### TECHNOLOGY STACK
 1. **HTML5**
