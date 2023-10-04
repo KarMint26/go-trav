@@ -34,6 +34,8 @@
 2. **index.html** = This is the main file in the website that becomes the endpoint of the initial display of the website when it is opened.
 3. **README.md** = This is a documentation file regarding the description of this website project.
 
+##
+
 ### FEATURES AND ADVANTAGES
 1. **Responsive and Modern UI** = The GoTrav website already has a responsive and modern look for the entire website design. Responsive display is a display that looks good on any device such as mobile, tablet, or desktop.
 
