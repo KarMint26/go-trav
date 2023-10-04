@@ -187,7 +187,7 @@ body {
   width: 100vw;
   height: 100vh;
   z-index: 999;
-  transform: translateX(-800px);
+  transform: translateX(-1000px);
   transition: 300ms ease-in-out;
 }
 
