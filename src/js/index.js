@@ -105,3 +105,9 @@ listNav.forEach((nav) => {
     bodyOfHtml.style.overflow = "visible";
   });
 });
+
+// Form Event
+const formContact = document.querySelector("#form-contact");
+formContact.addEventListener("submit", (e) => {
+  e.preventDefault();
+});
