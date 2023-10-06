@@ -1079,15 +1079,21 @@ body {
 
 /* Mobile View Responsive */
 #testimonials {
-  margin-top: 8rem;
+  margin-top: 6rem;
 }
 
 /* Tablet View Responsive */
 @media (min-width: 768px) {
+  #testimonials {
+    margin-top: 8rem;
+  }
 }
 
 /* Desktop View Responsive */
 @media (min-width: 1024px) {
+  #testimonials {
+    margin-top: 10rem;
+  }
 }
 
 /* Contact section styling */
@@ -1269,3 +1275,11 @@ body {
     width: 600px;
   }
 }
+
+/* Footer section styling */
+
+/* Mobile View Responsive */
+
+/* Tablet View Responsive */
+
+/* Desktop View Responsive */
