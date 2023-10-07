@@ -122,7 +122,7 @@ const totalImages = imagesToLoad.length;
 
 function imageLoaded() {
   imagesLoaded++;
-  if (imagesLoaded === totalImages) {
+  if (imagesLoaded === 9) {
     loadingContainer.style.display = "none";
   }
 }
