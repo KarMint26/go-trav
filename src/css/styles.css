@@ -616,6 +616,7 @@ body {
 
 .box-grid .field-service:hover {
   transform: translateY(-5px);
+  cursor: default;
 }
 
 .dark .box-grid .field-service {
@@ -731,6 +732,7 @@ body {
 
 #destinations .container-dest .field-dest:hover {
   transform: scale(1.03);
+  cursor: default;
 }
 
 .dark #destinations .container-dest .field-dest {
@@ -965,6 +967,10 @@ body {
   transition: 300ms ease-in-out;
 }
 
+.plan-container .pricing-box:hover {
+  cursor: default;
+}
+
 .plan-container .pricing-box:hover .head-price i {
   transform: scale(1.2);
 }
@@ -1119,6 +1125,7 @@ body {
 
 .card-testimoni:hover {
   background-color: var(--primary-color);
+  cursor: default;
 }
 
 .card-testimoni:hover i,
