@@ -1557,11 +1557,13 @@ footer .content .top {
   margin: 0 8px;
   border-radius: 50%;
   text-align: center;
-  line-height: 40px;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-decoration: none;
   transition: all 0.4s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .top .media-icons a:nth-child(1) {
   background: #4267b2;
@@ -1722,7 +1724,6 @@ footer .bottom-details .bottom-text {
     height: 35px;
     width: 35px;
     font-size: 1.3rem;
-    line-height: 35px;
   }
   footer .content .link-boxes .box {
     width: calc(100% / 3 - 10px);
