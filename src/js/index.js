@@ -116,7 +116,7 @@ formContact.addEventListener("submit", (e) => {
 const loadingScreen = document.querySelector(".loading-screen");
 const loadingContainer = document.querySelector(".loading-container");
 
-const imagesToLoad = document.querySelectorAll(".ig");
+const imagesToLoad = document.querySelectorAll("img");
 let imagesLoaded = 0;
 const totalImages = imagesToLoad.length;
 
@@ -124,7 +124,6 @@ function imageLoaded() {
   imagesLoaded++;
   if (imagesLoaded === totalImages) {
     loadingContainer.style.display = "none";
-    loadingScreen.style.display = "none";
   }
 }
 

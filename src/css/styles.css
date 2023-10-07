@@ -112,7 +112,7 @@ body {
   height: 100vh;
   background-color: #fff;
   z-index: 999999999;
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
   position: fixed;
@@ -668,7 +668,7 @@ body {
   box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.5);
 }
 
-.box-grid .field-service .service-img {
+.box-grid .field-service img {
   width: 100px;
 }
 
@@ -783,7 +783,7 @@ body {
   background-color: #181818;
 }
 
-#destinations .container-dest .field-dest .img-dest {
+#destinations .container-dest .field-dest img {
   width: 300px;
   height: 300px;
 }
@@ -851,7 +851,7 @@ body {
     gap: 6rem;
   }
 
-  #destinations .container-dest .field-dest .img-dest {
+  #destinations .container-dest .field-dest img {
     width: 350px;
     height: 350px;
   }
@@ -882,7 +882,7 @@ body {
   padding: 0.5rem 2rem;
 }
 
-#about .hero-about {
+#about img {
   width: 300px;
 }
 
@@ -921,7 +921,7 @@ body {
     padding: 0.5rem 3.5rem;
   }
 
-  #about .hero-about {
+  #about img {
     width: 500px;
   }
 
@@ -950,7 +950,7 @@ body {
     gap: 2rem;
   }
 
-  #about .hero-about {
+  #about img {
     width: 1000px;
   }
 
@@ -1183,20 +1183,20 @@ body {
   color: var(--bg-dark) !important;
 }
 
-.dark .card-testimoni:hover .people-image,
-.card-testimoni:hover .people-image {
+.dark .card-testimoni:hover img,
+.card-testimoni:hover img {
   border-color: var(--primary-color);
 }
 
-.card-testimoni:hover .people-image {
+.card-testimoni:hover img {
   box-shadow: 0 0 0 4px #fff;
 }
 
-.dark .card-testimoni:hover .people-image {
+.dark .card-testimoni:hover img {
   box-shadow: 0 0 0 4px var(--bg-dark);
 }
 
-.card-testimoni .people-image {
+.card-testimoni img {
   width: 60px;
   height: 60px;
   border-radius: 100%;
@@ -1204,7 +1204,7 @@ body {
   box-shadow: 0 0 0 4px var(--primary-color);
 }
 
-.dark .card-testimoni .people-image {
+.dark .card-testimoni img {
   border-color: #000;
 }
 
@@ -1289,11 +1289,11 @@ body {
     font-size: 1.1rem;
   }
 
-  .card-testimoni .people-image {
+  .card-testimoni img {
     border: 4px solid #fff;
   }
 
-  .card-testimoni .bot-desc .people-image {
+  .card-testimoni .bot-desc img {
     width: 80px;
     height: 80px;
   }
@@ -1339,7 +1339,7 @@ body {
   gap: 2rem;
 }
 
-#contact .contact-container .image-contact {
+#contact .contact-container img {
   width: 300px;
 }
 
@@ -1432,7 +1432,7 @@ body {
     padding: 0.5rem 3rem;
   }
 
-  #contact .contact-container .image-contact {
+  #contact .contact-container img {
     width: 500px;
   }
 
@@ -1463,7 +1463,7 @@ body {
     gap: 8rem;
   }
 
-  #contact .contact-container .image-contact {
+  #contact .contact-container img {
     width: 600px;
   }
 
@@ -1559,7 +1559,7 @@ footer .content .top {
   text-align: center;
   line-height: 40px;
   color: #fff;
-  font-size: 17px;
+  font-size: 1.2rem;
   text-decoration: none;
   transition: all 0.4s ease;
 }
@@ -1721,7 +1721,7 @@ footer .bottom-details .bottom-text {
   .content .top .media-icons a {
     height: 35px;
     width: 35px;
-    font-size: 14px;
+    font-size: 1.3rem;
     line-height: 35px;
   }
   footer .content .link-boxes .box {
