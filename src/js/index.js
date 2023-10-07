@@ -116,19 +116,16 @@ formContact.addEventListener("submit", (e) => {
 const loadingScreen = document.querySelector(".loading-screen");
 const loadingContainer = document.querySelector(".loading-container");
 
-const imagesToLoad = document.querySelectorAll("img");
+const imagesToLoad = document.querySelectorAll(".ig");
 let imagesLoaded = 0;
 const totalImages = imagesToLoad.length;
 
 function imageLoaded() {
   imagesLoaded++;
   if (imagesLoaded === totalImages) {
-    loadingContainer.classList.remove("active");
-    bodyOfHtml.classList.remove("active");
-  } else {
-    bodyOfHtml.classList.toggle("active");
+    loadingContainer.style.display = "none";
+    loadingScreen.style.display = "none";
   }
-  loadingContainer.classList.add("active");
 }
 
 imagesToLoad.forEach((img) => {
