@@ -34,6 +34,7 @@ body {
   transition: 300ms ease-in-out;
   font-family: "Poppins", sans-serif;
   overflow-x: hidden !important;
+  overflow-y: hidden;
 }
 
 .dark body {

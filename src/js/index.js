@@ -118,4 +118,5 @@ const loadingContainer = document.querySelector(".loading-container");
 
 setTimeout(() => {
   loadingContainer.style.display = "none";
-}, 3500)
+  bodyOfHtml.style.overflowY = "visible";
+}, 3500);
