@@ -49,4 +49,4 @@
 
 6. **Image Preview and Meta Open Graph** = GoTrav website has used image preview and meta open graph as SEO Friendly, when users share the website link, it will automatically display the image preview.
 
-7. **Loading Screen** = The GoTrav website has implemented a loading screen, meaning that when all images on the website have been downloaded by the user, the loading screen will disappear, but if you are still downloading, the loading screen is still running.
+7. **Loading Screen** = The GoTrav website has implemented a loading screen or splash screen static

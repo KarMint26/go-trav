@@ -116,17 +116,6 @@ formContact.addEventListener("submit", (e) => {
 const loadingScreen = document.querySelector(".loading-screen");
 const loadingContainer = document.querySelector(".loading-container");
 
-const imagesToLoad = document.querySelectorAll("img");
-let imagesLoaded = 0;
-const totalImages = imagesToLoad.length;
-
-function imageLoaded() {
-  imagesLoaded++;
-  if (imagesLoaded === 9) {
-    loadingContainer.style.display = "none";
-  }
-}
-
-imagesToLoad.forEach((img) => {
-  img.addEventListener("load", imageLoaded);
-});
+setTimeout(() => {
+  loadingContainer.style.display = "none";
+}, 3500)
