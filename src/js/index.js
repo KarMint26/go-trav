@@ -111,3 +111,26 @@ const formContact = document.querySelector("#form-contact");
 formContact.addEventListener("submit", (e) => {
   e.preventDefault();
 });
+
+// Loading or Splash Screen
+const loadingScreen = document.querySelector(".loading-screen");
+const loadingContainer = document.querySelector(".loading-container");
+
+const imagesToLoad = document.querySelectorAll("img");
+let imagesLoaded = 0;
+const totalImages = imagesToLoad.length;
+
+function imageLoaded() {
+  imagesLoaded++;
+  if (imagesLoaded === totalImages) {
+    loadingContainer.classList.remove("active");
+    bodyOfHtml.classList.remove("active");
+  } else {
+    bodyOfHtml.classList.toggle("active");
+  }
+  loadingContainer.classList.add("active");
+}
+
+imagesToLoad.forEach((img) => {
+  img.addEventListener("load", imageLoaded);
+});
