@@ -50,3 +50,5 @@
 6. **Image Preview and Meta Open Graph** = GoTrav website has used image preview and meta open graph as SEO Friendly, when users share the website link, it will automatically display the image preview.
 
 7. **Loading Screen** = The GoTrav website has implemented a loading screen or splash screen static
+
+8. **PWA** = The GoTrav website has implemented a PWA (Progressive Web Apps)
