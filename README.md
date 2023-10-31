@@ -51,4 +51,4 @@
 
 7. **Loading Screen** = The GoTrav website has implemented a loading screen or splash screen static
 
-8. **PWA** = The GoTrav website has implemented a PWA (Progressive Web Apps)
+8. **PWA** = The GoTrav website has implemented a PWA (Progressive Web Apps) for Best Experience in Mobile
