@@ -32,7 +32,9 @@
     - **css** = The css folder is used to store style.css files to organize the appearance of the website and also to make the structure of this website project better and more structured.
     - **js** = This js folder is used to store the index.js file as a regulator of website behavior to make it more interactive and the folder structure in this project becomes tidier.
 2. **index.html** = This is the main file in the website that becomes the endpoint of the initial display of the website when it is opened.
-3. **README.md** = This is a documentation file regarding the description of this website project.
+3. **manifest.json** = The manifest.json file is a JSON (JavaScript Object Notation) file that contains metadata and configuration information about the web application.
+4. **README.md** = This is a documentation file regarding the description of this website project.
+5. **serviceWorker.js** = A serviceWorker.js file is a JavaScript file used in the context of Progressive Web Apps (PWAs) to control various aspects of the web application, including caching assets, handling network requests, and enabling offline capabilities.
 
 ##
 
